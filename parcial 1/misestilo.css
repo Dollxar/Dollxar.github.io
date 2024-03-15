@@ -1,0 +1,19 @@
+#boton{
+    background-color: aquamarine;
+    border: none;
+    font-size: 30px;
+    width: 500px;
+    padding: 20px;
+    color: gray;
+}
+
+.texto{
+    color: black;
+}
+.link{
+    color: brown;
+}
+
+a:hover{
+    color: orange;
+}
