@@ -1,8 +1,44 @@
 body .header{
-    padding: 10%;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 body .header--logo img {
-    max-width: 70%;
+    display: flex;
+    align-content: flex-end;
+  }
+  .row{
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .nav-link{
+    color: #666777;
+    font-weight: 500;
+    position: relative;
+  }
+
+  .nav-link:hover, .nav-link.active{
+    color: #000;
+  }
+
+  .nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #009970;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
+
+  .nav-link:hover::before, .nav-link.active::before{
+    width: 100%;
+    visibility: visible;
+
   }
