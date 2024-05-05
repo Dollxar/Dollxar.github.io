@@ -77,3 +77,22 @@ body {
 body {
   font-family: Arial, sans-serif;
 }
+
+
+
+div .row{
+  display: block;
+  unicode-bidi: isolate;
+  
+}
+
+.conocenos--variedad--content-objetFade-transition1{
+  text-align: center;
+}
+
+.coffe-bean{
+  width: 30%;
+
+}
+
+  
