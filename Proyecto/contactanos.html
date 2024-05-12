@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>OXXO - andatti</title>
+    <script src="js/jquery-3.7.1.js"></script>
+</head>
+<body class="contactanos" style="background-color: #F6CC1C;">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F6CC1C;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="Imagenes/logoAndatti.png" alt="" width="125" height="50"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nuestro café</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Orígenes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tienda en línea</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+      </nav>
+    </header><br>
+
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="form">
+            <img class="coffe-bean2" src="Imagenes/coffe-bean-icon.png" alt=""><br><br>
+            <h2 class="h2"><strong>TU OPINIÓN ES IMPORTANTE  <br>PARA NOSOTROS</strong></h2><br>
+            <form action="contacto-envio.html" method="POST">
+              <input type="hidden" name="token" value="" />
+              <div class="nombre-contac">
+                <input class="nombre" type="text" name="name_contac" id="name_contac" placeholder="NOMBRE" required><br><br>
+              </div>
+              <div class="correo_contac">
+                <input class="correo" type="text" name="correo_contac" id="correo_contac" placeholder="E-MAIL" required><br><br>
+              </div>
+              <div class="telefono_contac">
+                <input class="telefono" type="text" name="telefono_contac" id="telefono_contac" placeholder="TELÉFONO" required><br><br>
+              </div>
+              <div class="codigo_contac">
+                <input class="tarjeta" type="text" name="codigo_contac" id="codigo_contac" maxlength="13" placeholder="TARJETA andatti" required><br><br>
+              </div>
+              <div class="mensaje_contac">
+                <textarea class="comentarios" id="mensaje_contac" placeholder="COMENTARIOS" required></textarea><br><br>
+              </div>
+              <div class="g-recaptcha" data-sitekey="6LcQr6gZAAAAAKxhxn-HgsqIwqeG2bj2mepzszOx" required></div>
+              <div class="boton-enviar">
+                <input class="buttonSubmit" type="submit" value="   ENVIAR   " style="background-color: #000000; color: rgb(255, 255, 255); border-color: black; border-radius: 50px; border-width: 0.1cm; padding: 1%; padding-left: 3%; padding-right: 3%;;">
+              </div>
+            </form>
+          </div> <br><br>
+          
+        </div>
+      </div>
+    </div>    
+
+    <div class="footer">
+      <p><b>Términos y condiciones</b></p>
+      <img class="footer-andatti" src="Imagenes/logoAndatti.png" alt="">
+      <img class="footer-fb" src="Imagenes/icon-fb.png" alt="">
+      <img class="footer-ig" src="Imagenes/icon-instagram.png" alt="">
+      <img class="footer-x" src="Imagenes/icon-twitter.png" alt="">
+    </div>
+</body>
+</html>
