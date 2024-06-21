@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto final pracial #3</title>
+    <link rel="stylesheet" href="../../parcial 2/css/bootstrap.css">
+    <script src="../../parcial 2/js/jquery-3.7.1.js"></script>
 </head>
 <body>
-    German Eduardo Reyes Escamilla
+    <div class="container">
+        <h1>Proyecto Final parcial 3</h1>
+        <p>German Eduardo Reyes Escamilla</p>
+        <div class="row mt-2">
+            <div class="row">
+                <h3 class="card badge rounded-pill bg-dark">SELECT * FROM alumnos</h3>
+                <h4 class="badge bg-secondary">Consulta #1. Obtener el listado de todos los alumnos de la facultad</h4>
+                <img src="Imagenes/Consulta1.png" alt="" class="img-fluid" style="border: 3px solid black;">
+            </div>
+            <br>
+            <div class="row mt-2">
+                
+                <div class="row">
+                    <h3 class="card badge rounded-pill bg-dark">SELECT curso.nombreDescriptivo,asignatura.nombre FROM curso <br>
+                        INNER JOIN asignatura <br> ON curso.idCurso = asignatura.curso</h3>
+                        <h4 class="badge bg-secondary">Consulta #2. Obtener el listado de cursos(nombres) y las asignaturas que tienen</h4>
+                        <img src="Imagenes/Consulta1.png" alt="" class="img-fluid" style="border: 3px solid black;">
+                    </div>
+                </div>
+                </div>
+    </div>
+    <script src="../../parcial 2/js/bootstrap.js"></script>
 </body>
 </html>
