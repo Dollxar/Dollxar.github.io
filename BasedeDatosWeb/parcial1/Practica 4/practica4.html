@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen en línea de historia</title>
+    <link rel="stylesheet" href="../../Proyecto/css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <form action="practica4.php" method="POST">
+            <div class="row">
+                <h1>Exámen de historia / geografia</h1><hr>
+                    <div class="card mb-4">
+                        <div class="card-header">
+                        1. ¿Cuantos paises hay en el mundo?
+                        </div>
+                        <div class="card-body">
+                            <p><input type="radio" name="pregunta1" value="MEX" required> Solo Mexico </p>
+                            <p><input type="radio" name="pregunta1" value="USA" required> USA </p>
+                            <p><input type="radio" name="pregunta1" value="NUM" required> 195 </p>
+                        </div>
+                    </div>
+                    <div class="card p-4 mb-4">
+                        <p>
+                            2. <input type="text" name="pregunta2" required> Nombre del ultimo emperador francés
+                        </p>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-header">
+                        3. ¿Cual fue el imperio mas grande en territorio del mundo? (Selecciona 2)
+                        </div>
+                        <div class="card-body">
+                            <p><input type="checkbox" name="pregunta3[]" value="rom" > Imperio Romano </p>
+                            <p><input type="checkbox" name="pregunta3[]" value="bri" > Imperio Britanico </p>
+                            <p><input type="checkbox" name="pregunta3[]" value="mon" > Imperio Mongol </p>
+                        </div>
+                    </div>
+            </div>
+            <br><input type="submit" class="btn btn-primary" value="Terminar examen">
+        </form>
+    </div>
+</body>
+</html>
