@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen en línea</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <form action="practica4.php" method="POST">
+            <div class="row">
+                <h1>Exámen de Historia - German Eduardo Reyes Escamilla</h1><hr>
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            1. ¿En que años fue la epoca victoriana? <strong style="color: red;">(*)</strong>
+                        </div>
+                        <div class="card-body">
+                            <p><input type="radio" name="pregunta1" value="opcion1" required> 1837-1901 </p>
+                            <p><input type="radio" name="pregunta1" value="opcion2" required> 1774-1846 </p>
+                            <p><input type="radio" name="pregunta1" value="opcion3" required> 1933-1945 </p>
+                        </div>
+                    </div>
+                    <div class="card p-4 mb-4">
+                        <p>
+                            2. <input type="text" name="pregunta2" value="" required> fue el ultimo emperador de Francia. <strong style="color: red;">(*)</strong>
+                        </p>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-header">
+                        3. Fueron lideres autoritarios durante la segunda guerra mundial <strong style="color: red;">(*)</strong>
+                        </div>
+                        <div class="card-body">
+                            <p><input type="checkbox" name="pregunta3[]" value="Stalin"> Stalin </p>
+                            <p><input type="checkbox" name="pregunta3[]" value="Hirohito"> Hirohito </p>
+                            <p><input type="checkbox" name="pregunta3[]" value="Churchill"> Winston Churchill </p>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-header">
+                        4. ¿Quien capturo berlin durante el final de la guerra? <strong style="color: red;">(*)</strong>
+                        </div>
+                        <div class="card-body">
+                            <p><input type="radio" name="pregunta4" value="USA" required> USA </p>
+                            <p><input type="radio" name="pregunta4" value="FRA" required> FRA </p>
+                            <p><input type="radio" name="pregunta4" value="$URSS" required> $URSS </p>
+                        </div>
+                    </div>
+                        <div class="card p-4 mb-4">
+                        <div class="card-header">
+                            5. ¿Cuál de las siguientes afirmaciones sobre la Revolución Rusa de 1917 es correcta? <strong style="color: red;">(*)</strong>
+                            </div>
+                            <div class="card-body">
+                                <p><input type="radio" name="pregunta5" value="febrero" required> La Revolución de Octubre sucedió en febrero </p>
+                                <p><input type="radio" name="pregunta5" value="zar" required> La Revolución de Octubre derrocó al zar </p>
+                                <p><input type="radio" name="pregunta5" value="lenin" required> Lenin lideró el derrocamiento del gobierno provisional en octubre </p>
+                                <p><input type="radio" name="pregunta5" value="trotsky" required> Trotsky firmó la paz con Alemania antes de la Revolución de Octubre </p>
+                            </div>
+                    </div>
+                <!-- Pregunta 6 -->
+                 <div class="card p-4 mb-4">
+                    <div class="card-header">
+                        6. ¿Qué tratado puso fin a la Primera Guerra Mundial para Alemania? <strong style="color: red;">(*)</strong>
+                    </div>
+                    <div class="card-body">
+                        <p><input type="radio" name="pregunta6" value="versalles" required> Tratado de Versalles</p>
+                        <p><input type="radio" name="pregunta6" value="neuilly" required> Tratado de Neuilly</p>
+                        <p><input type="radio" name="pregunta6" value="stgermain" required> Tratado de Saint-Germain</p>
+                        <p><input type="radio" name="pregunta6" value="trianon" required> Tratado de Trianon</p>
+                    </div>
+                 </div>
+
+                 <!-- Preguntas 7 -->
+                 <div class="card p-4 mb-4">
+                    <div class="card-header">
+                        7. ¿Cuál fue el principal objetivo de la Revolución Mexicana de 1910? <strong style="color: red;">(*)</strong>
+                    </div>
+                    <div class="card-body">
+                        <p><input type="checkbox" name="pregunta7[]" value="nacionalismo" > Fomentó el nacionalismo cultural</p>
+                        <p><input type="checkbox" name="pregunta7[]" value="independencia" > Marcó la independencia de México</p>
+                        <p><input type="checkbox" name="pregunta7[]" value="reforma" > Buscó la reforma agraria</p>
+                        <p><input type="checkbox" name="pregunta7[]" value="paz" > Estableció una paz duradera inmediatamente</p> 
+                        <p><input type="checkbox" name="pregunta7[]" value="derrocamiento" > Derrocó a Porfirio Díaz</p>
+                    </div>
+                </div>
+
+                <!-- Pregunta 8 -->
+                <div class="card p-4 mb-4">
+                    <div class="card-header">
+                        8. ¿Cuáles de los siguientes eventos ocurrieron en el siglo XIX o antes? (Selecciona todas las que apliquen) <strong style="color: red;">(*)</strong>
+                    </div>
+                    <div class="card-body">
+                        <p><input type="checkbox" name="pregunta8[]" value="independencia" > Independencia de México (1810)</p>
+                        <p><input type="checkbox" name="pregunta8[]" value="revolucion" > Revolución Francesa (1789)</p>
+                        <p><input type="checkbox" name="pregunta8[]" value="guerra" > Guerra Civil Americana (1861-1865)</p>
+                        <p><input type="checkbox" name="pregunta8[]" value="francmasones" > Fundación de la primera logia masónica en México (1820)</p>
+                        <p><input type="checkbox" name="pregunta8[]" value="tecnologia" > Invención del teléfono (1876)</p>
+                    </div>
+                </div>
+                <!-- Pregunta 9 -->
+                <div class="card p-4 mb-4">
+                    <p>
+                        9. <input type="text" name="pregunta9" value="" required> , el pais fue el causante de la WW2 y la WW1.<strong style="color: red;">(*)</strong>
+                    </p>
+                </div>
+                
+                <!-- Pregunta 10 -->
+                <div class="card p-4 mb-4">
+                    <p>
+                        10. <input type="text" name="pregunta10" value="" required> fue el primer presidente de México. <strong style="color: red;">(*)</strong>
+                    </p>
+                </div>
+            </div>
+            <br><input type="submit" class="btn btn-primary" value="Terminar examen">
+        </form>
+    </div>
+</body>
+</html>
